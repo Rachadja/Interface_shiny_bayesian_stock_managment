@@ -1,0 +1,30 @@
+---
+title: "README"
+output: html_document
+date: '2024-11-23'
+---
+
+```{r setup, include=FALSE}
+# Gestion des Stocks Bayésienne pour BVA
+
+Cette application Shiny permet de calculer les coûts liés à la gestion des stocks de pièces et de simuler des ruptures de stock.
+
+## Instructions
+
+1. Clonez ce dépôt :
+   ```bash
+   git clone https://github.com/votre_nom_utilisateur/bayesian-stock-management.git
+   ```
+
+2. Installez les dépendances :
+   ```R
+   install.packages(c('shiny', 'shinydashboard', 'extraDistr'))
+   ```
+
+3. Exécutez l'application Shiny :
+   ```R
+   shiny::runApp('app.R')
+   ```
+
+```
+
